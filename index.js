@@ -27,7 +27,7 @@ module.exports = {
     this.import('vendor/@shopify/draggable/draggable.js');
     this.import('vendor/shims/draggable.js', {
       exports: {
-        '@shopify/draggable': ['default', 'Draggable']
+        '@shopify/draggable': ['default', 'Draggable', 'Droppable', 'Sortable', 'Swappable']
       }
     });
   },

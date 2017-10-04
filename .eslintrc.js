@@ -4,6 +4,10 @@ module.exports = {
     ecmaVersion: 2017,
     sourceType: 'module'
   },
+  globals: {
+    define: true,
+    Draggable: true
+  },
   extends: 'eslint:recommended',
   env: {
     browser: true
