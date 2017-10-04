@@ -1,0 +1,11 @@
+.sortable-object {
+  height: 30px;
+  width: 30px;
+  background-color: aliceblue;
+}
+
+#dropzone {
+  height: 50px;
+  width: 50px;
+  background-color: red;
+}

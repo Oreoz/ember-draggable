@@ -4,4 +4,18 @@
   Ça paye!
 {{/draggable-object}}
 
+{{#sortable-list as |sl|}}
+  {{#sl.obj}}A{{/sl.obj}}
+  {{#sl.obj}}B{{/sl.obj}}
+  {{#sl.obj}}C{{/sl.obj}}
+{{/sortable-list}}
+
+<div id="dropzone" class="">
+DZ
+</div>
+
+{{#droppable-object}}
+  Ça paye!
+{{/droppable-object}}
+
 {{outlet}}
